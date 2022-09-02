@@ -1,0 +1,95 @@
+# --------------------------------
+# macOS temporary files
+# --------------------------------
+.DS_Store
+*.lock
+*.swp
+
+# --------------------------------
+# Xcode
+# --------------------------------
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+!default.xcworkspace
+!xcschemes
+!xcshareddata
+.build/
+.swiftpm/
+*.hmap
+*.ipa
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+*.xcworkspacedata
+*~.nib
+build/
+Builds/
+DerivedData/
+xcuserdata
+*.gcno
+
+# --------------------------------
+# AppCode
+# --------------------------------
+.idea/
+
+# --------------------------------
+# CocoaPods
+# --------------------------------
+!Podfile
+!Podfile.lock
+Pods/
+
+# --------------------------------
+# Carthage
+# --------------------------------
+!Cartfile
+!Cartfile.private
+!Cartfile.resolved
+!Carthage/Checkouts
+Carthage/Build
+Carthage/Build.rbenv-vars
+
+# --------------------------------
+# Fastlane
+# --------------------------------
+fastlane/Preview.html
+fastlane/local_config.sh
+fastlane/test_output
+fastlane/Provisioning
+fastlane/Build
+fastlane/report.xml
+buildData
+
+# --------------------------------
+# dotenv
+# --------------------------------
+env.sh
+
+# --------------------------------
+# Exported environment variables for XcodeCoverage
+# --------------------------------
+.env
+
+# --------------------------------
+# rbenv
+# --------------------------------
+.rbenv-vars
+
+# --------------------------------
+# Bundler
+# --------------------------------
+.bundle/
+Gemfile.lock
+
+# --------------------------------
+# Generamba
+# --------------------------------
+Templates/
